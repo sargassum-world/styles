@@ -1,6 +1,6 @@
 {
   "name": "@sargassum-world/styles",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/sargassum-world/styles",
   "author": "Ethan Li <lietk12@gmail.com> (https://ethanj.li)",
   "description": "Bulma theme customizations for Sargassum apps",
@@ -22,9 +22,7 @@
     "bulma": "^0.9.3"
   },
   "files": [
-    "sargassum",
-    "components.scss",
-    "theme-overrides.scss",
+    "**/*.scss",
     "LICENSE",
     "LICENSE.BlueOak",
     "README.md"

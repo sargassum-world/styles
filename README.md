@@ -9,8 +9,8 @@ This package merely provides a collection of SCSS files to include in a project;
 @charset 'utf-8';
 
 // Shared base
-@import 'node_modules/@sargassum-world/styles/sargassum/global.scss';
-@import 'node_modules/@sargassum-world/styles/sargassum/typography.vars.scss';
+@import 'node_modules/@sargassum-world/styles/global.scss';
+@import 'node_modules/@sargassum-world/styles/typography.vars.scss';
 @import 'node_modules/bulma/sass/utilities/mixins.sass';
 
 // Application-specific parameters
@@ -37,8 +37,8 @@ This package merely provides a collection of SCSS files to include in a project;
 // Overrides & components
 // CUSTOMIZATION POINT: e.g. importing 'styles/app/components/_all.scss' for styles of additional
 // components
-@import 'node_modules/@sargassum-world/styles/theme-overrides/_all.scss';
-@import 'node_modules/@sargassum-world/styles/components/_all.scss';
+@import 'node_modules/@sargassum-world/styles/theme-overrides.scss';
+@import 'node_modules/@sargassum-world/styles/components.scss';
 // @import 'styles/app/components/_all.scss';
 ```
 
