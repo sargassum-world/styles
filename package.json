@@ -1,0 +1,35 @@
+{
+  "name": "@sargassum-world/styles",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sargassum-world/styles",
+  "author": "Ethan Li <lietk12@gmail.com> (https://ethanj.li)",
+  "description": "Bulma theme customizations for Sargassum apps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sargassum-world/styles.git"
+  },
+  "license": "(Apache-2.0 OR BlueOak-1.0.0)",
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "bulma"
+  ],
+  "bugs": {
+    "url": "https://github.com/sargassum-world/styles/issues"
+  },
+  "devDependencies": {
+    "bulma": "^0.9.3"
+  },
+  "files": [
+    "sargassum",
+    "components.scss",
+    "theme-overrides.scss",
+    "LICENSE",
+    "LICENSE.BlueOak",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
