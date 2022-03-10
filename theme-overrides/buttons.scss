@@ -14,3 +14,7 @@ button.is-ghost.is-ahref {
 .button.is-primary {
   background-color: $primary;
 }
+
+.buttons.is-padded {
+  margin-top: $gap;
+}
