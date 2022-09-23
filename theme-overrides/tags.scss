@@ -13,3 +13,8 @@
 .tag:not(body).is-danger {
   background-color: $danger;
 }
+
+.tag .delete {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
